@@ -186,9 +186,9 @@ function App() {
             <div className="text-white/60 ml-3">
               Total you'll pay over the term as {` `}
               {mtypestate == 0
-                ? "repayment"
+                ? "Repayment"
                 : mtypestate == 1
-                ? "interest only"
+                ? "Interest only"
                 : " "}
             </div>
             <div className="ml-3 text-lg text-white/65 font-bold">
