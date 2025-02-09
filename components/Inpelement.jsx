@@ -47,6 +47,7 @@ export function Inpelement({
           max={inpmax}
           name={iname}
           id={iname}
+          step="any" // This allows for decimal numbers
           value={istate}
           onChange={(e) => {
             if (
