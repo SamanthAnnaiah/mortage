@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "pjb";
+  src: url("/font/PlusJakartaSans-Bold.ttf");
+}
+
+@layer base {
+  @font-face {
+    font-family: "pjr";
+    src: url("/font/PlusJakartaSans-Medium.ttf") format("woff2"); /* Replace with actual font path */
+  }
+}
+
+body {
+  font-family: "pjr";
+  background: linear-gradient(to bottom right, #d6f0ff, #d6f0ff);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
